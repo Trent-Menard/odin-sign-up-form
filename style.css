@@ -1,0 +1,61 @@
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: rgba(15, 50, 80);
+}
+
+main {
+    display: flex;
+    font-family: Consolas, serif;
+}
+
+#astronaut {
+    height: 100vh;
+    border: 3px inset rgba(3, 9, 18);
+}
+
+#form-info-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Consolas, serif;
+}
+
+label {
+    font-size: 1.2vw;
+    color: rgba(232, 242, 251);
+}
+
+legend {
+    font-size: 1.2vw;
+    color: rgba(232, 242, 251);
+}
+
+h2 {
+    font-size: 1.4vw;
+    color: crimson;
+}
+
+input {
+    font-size: 1vw;
+    background-color: rgba(111, 162, 205);
+}
+
+button {
+    margin-left:15vw;
+    font-family: Consolas, serif;
+    font-size: 1.2vw;
+    background-color: rgba(111, 162, 205);
+    color: rgba(232, 242, 251);
+    border-radius: 10px;
+}
+
+input:invalid {
+    border: 2px solid crimson;
+}
+
+input:valid {
+    border: 2px solid forestgreen;
+}
